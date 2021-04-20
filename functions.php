@@ -10,3 +10,13 @@
     add_action( 'wp_enqueue_scripts', 'piano_theme_register_styles')
 
 ?>
+
+<?php
+
+    function piano_theme_register_scripts(){
+        wp_enqueue_script('piano-theme-bootstrap', "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js", array(), '5.0.0-beta3', 'all');
+    }
+
+    add_action( 'wp_enqueue_scripts', 'piano_theme_register_scripts')
+
+?>
