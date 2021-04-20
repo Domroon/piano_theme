@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alles Theurer</title>
     <!-- Load these Stylesheets dynamic with the wp_head-function (adds also necessary wp-stylesheets) -->
     <!-- Bootstrap CSS -->
     <!-- Custom CSS -->

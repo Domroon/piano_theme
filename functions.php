@@ -1,4 +1,13 @@
 <?php
+    function piano_theme_theme_support(){
+        // Adds dynamic title tag support
+        add_theme_support('title-tag');
+    }
+    
+    add_action('after_setup_theme', 'piano_theme_theme_support');
+?>
+
+<?php
 
     function piano_theme_register_styles(){
         $version = wp_get_theme()->get( 'Version' );
@@ -15,6 +24,7 @@
 
     function piano_theme_register_scripts(){
         wp_enqueue_script('piano-theme-bootstrap', "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js", array(), '5.0.0-beta3', 'all');
+
     }
 
     add_action( 'wp_enqueue_scripts', 'piano_theme_register_scripts')
