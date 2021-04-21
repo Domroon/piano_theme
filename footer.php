@@ -2,7 +2,7 @@
 <section class="questions">
     <div class="container mb-5">
       <div class="row justify-content-center">
-        <div class="col-md-7 text-center">
+        <form class="col-md-7 text-center">
           <div class="mb-3">
             <h1 class="mb-5">Noch Fragen?</h1>
             <label for="exampleFormControlInput1" class="form-label">Email Adresse</label>
@@ -11,8 +11,9 @@
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Deine Frage</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <input type="submit" value="Senden">
           </div>
-        </div>
+        </form>
       </div>
     </div>
   </section>
